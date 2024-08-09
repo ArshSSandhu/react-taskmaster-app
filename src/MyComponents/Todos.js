@@ -14,7 +14,9 @@ let myStyle ={
       {props.todos.length === 0 ? "No tasks to display" : 
         props.todos.map((todo) => {
           return (
-            <TodoItem todo={todo} key={todo.sno} onDelete={props.onDelete} />
+            <>
+            <TodoItem todo={todo} key={todo.sno} onDelete={props.onDelete} /> <hr/>
+            </>
           )
         })
       }
