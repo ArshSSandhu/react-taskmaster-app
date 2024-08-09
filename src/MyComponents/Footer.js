@@ -1,8 +1,15 @@
 import React from 'react';
 
 const Footer = () => {
+
+let footerStyle={
+  position: "relative",
+  top: "70vh",
+  width: "100%"
+}
+
   return (
-    <footer className="bg-dark text-light py-4">
+    <footer className="bg-dark text-light py-4" style={footerStyle} >
       <div className="container text-center">
         <div className="row">
           <div className="col-md-6 mb-3 mb-md-0">
