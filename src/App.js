@@ -8,7 +8,7 @@ import Footer from './MyComponents/Footer'
 function App() {
   return (
     <>
-    <Header/>
+    <Header title="My TaskMaster App" />
     <Todos/>
     <TodoItem/>
     <Footer/>
