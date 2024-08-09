@@ -1,19 +1,21 @@
-import React from 'react'
+import React from 'react';
 import TodoItem from './TodoItem';
 
 const Todos = (props) => {
   return (
     <div className="container">
-      <h3 className="text-center my-3" >Tasks List</h3>
+      <h3 className="text-center my-3">Tasks List</h3>
       
-      {props.todos.map((todo)=>{
-        return(
-            <TodoItem todo={todo} onDelete={props.onDelete}/>
-        )
-      })}
-
+      {props.todos.length === 0 ? "No tasks to display" : 
+        props.todos.map((todo) => {
+          return (
+            <TodoItem todo={todo} key={todo.sno} onDelete={props.onDelete} />
+          )
+        })
+      }
     </div>
-  )
+  );
 }
 
-export default Todos
+export default Todos;
+
