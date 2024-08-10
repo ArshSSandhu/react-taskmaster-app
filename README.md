@@ -13,7 +13,6 @@
 
 <img src="https://skillicons.dev/icons?i=react,css,npm,nodejs,html,js" />
     <br/>
-    
 - **React**: For building the user interface.
 - **React Router**: For navigation and routing.
 - **CSS**: For styling the application.
