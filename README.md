@@ -11,20 +11,14 @@
 
 ## Technologies Used
 
- <h5 align="left">Languages</h5> <img src="https://skillicons.dev/icons?i=react" />
+<img src="https://skillicons.dev/icons?i=react,css,npm,nodejs,html,js" />
     <br/>
-  <h5 align="left">Frameworks and Libraries</h5> <img src="https://skillicons.dev/icons?i=css" />
-    <br/>
-  <h5 align="left">Frameworks and Libraries</h5> <img src="https://skillicons.dev/icons?i=npm" />
-  <br/>
-  <h5 align="left">Frameworks and Libraries</h5> <img src="https://skillicons.dev/icons?i=nodejs" />
-   <br/>
-  <h5 align="left">Frameworks and Libraries</h5> <img src="https://skillicons.dev/icons?i=jsx" />
-    <br/>
+    
 - **React**: For building the user interface.
 - **React Router**: For navigation and routing.
 - **CSS**: For styling the application.
 - **JSX**: For writing HTML-like code within JavaScript, which is compiled to JavaScript by React.
+- **NodeJs and NPM**: Modules and Packages
 
 ## Live Demo
 Use the project here - [Taskmaster - created by Arsh Sandhu](https://react-taskmaster-app.vercel.app/)
