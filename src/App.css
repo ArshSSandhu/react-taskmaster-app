@@ -1,0 +1,146 @@
+/* App.css */
+
+/* Global styles */
+body {
+    background-image: url(./assets/img9.jpeg);
+   
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 15px;
+    border-radius: 8px;
+
+  }
+  
+  /* Header Styles */
+
+
+.container-fluid{
+    background-color: rgb(4, 4, 101);
+    height: 80px;
+}
+
+
+.navbar {
+    background-color: #01060b;
+  }
+  
+  .navbar-brand {
+    font-size: 35px;
+    font-weight: bold;
+    color: white
+  }
+  
+  .nav-link {
+    color: white !important;
+    font-weight: 500;
+  }
+  
+  .nav-link:hover {
+    color: #ffc107 !important;
+  }
+  
+  /* AddTodo Styles */
+
+.container-ct.my-3{
+    background-color: white;
+    max-width: 30%;
+    margin: 40px auto;
+    padding: 0 15px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+    height: 250px;    
+
+}
+
+  form h3 {
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  .form-label {
+    font-weight: 500;
+  }
+  
+  .btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+    font-weight: 500;
+  }
+  
+  .btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+  }
+  
+  /* Todos List Styles */
+  .my-3 {
+    margin: 1.5rem 0;
+  }
+  
+  .todos-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+    max-width: 95%;
+  }
+  
+  .todos-container h3 {
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  .todo-item {
+    display: flexbox;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .todo-item h4 {
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  
+  .todo-item p {
+    margin-top: 20px;
+    font-size: 14px;
+    
+    color: #555;
+  }
+  
+  .btn-danger {
+    font-weight: 500;
+    padding: 4px 10px;
+    border-radius: 5px;
+    background-color: #dc3545;
+  }
+  
+  .btn-danger:hover {
+    background-color: #c82333;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 40px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  

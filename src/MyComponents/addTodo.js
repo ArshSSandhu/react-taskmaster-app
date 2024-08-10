@@ -18,8 +18,8 @@ const AddTodo = (props) => {
     }
 
   return (
-    <div className="container my-3">
-        <h3>Add your Task</h3>
+    <div className="container-ct my-3">
+        <h3 style={{ textAlign: 'center' }} >Add your Task</h3>
       <form onSubmit={submit}>
   <div className="mb-3">
     <label htmlFor="title" className="form-label">Task Title</label>

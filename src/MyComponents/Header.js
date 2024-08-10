@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 
 export default function Header(props) {
   return (
+    <div className="contains-navbar">
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
   <div className="container-fluid">
     <Link className="navbar-brand" to="/">{props.title}</Link>
@@ -27,6 +28,7 @@ export default function Header(props) {
     </div>
   </div>
 </nav>
+</div>
   )
 }
 

@@ -8,7 +8,7 @@ let myStyle ={
 }
 
   return (
-    <div className="container" style={myStyle}>
+    <div className="container todos-container" style={myStyle}>
       <h3 className=" my-3">Tasks List</h3>
       
       {props.todos.length === 0 ? "No tasks to display" : 

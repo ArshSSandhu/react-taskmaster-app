@@ -48,7 +48,7 @@ function App() {
 
   return (
     <Router>
-      <Header title="My TaskMaster App" searchBar={false} />
+      <Header title="My TaskMaster App ✅" searchBar={false} />
       <Routes>
         <Route 
           path="/" 
