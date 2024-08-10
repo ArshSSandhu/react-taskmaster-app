@@ -9,3 +9,10 @@
 - **Task Management**: Checkmark your completed tasks.
 - **Task Deletion**: Delete unwanted your completed tasks.
 
+## Technologies Used
+
+- **React**: For building the user interface.
+- **React Router**: For navigation and routing.
+- **CSS**: For styling the application.
+- **JSX**: For writing HTML-like code within JavaScript, which is compiled to JavaScript by React.
+
