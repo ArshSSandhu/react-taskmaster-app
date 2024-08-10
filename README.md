@@ -11,6 +11,16 @@
 
 ## Technologies Used
 
+ <h5 align="left">Languages</h5> <img src="https://skillicons.dev/icons?i=react" />
+    <br/>
+  <h5 align="left">Frameworks and Libraries</h5> <img src="https://skillicons.dev/icons?i=css" />
+    <br/>
+  <h5 align="left">Frameworks and Libraries</h5> <img src="https://skillicons.dev/icons?i=npm" />
+  <br/>
+  <h5 align="left">Frameworks and Libraries</h5> <img src="https://skillicons.dev/icons?i=nodejs" />
+   <br/>
+  <h5 align="left">Frameworks and Libraries</h5> <img src="https://skillicons.dev/icons?i=jsx" />
+    <br/>
 - **React**: For building the user interface.
 - **React Router**: For navigation and routing.
 - **CSS**: For styling the application.
