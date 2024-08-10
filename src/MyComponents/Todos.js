@@ -9,13 +9,16 @@ let myStyle ={
 
   return (
     <div className="container todos-container" style={myStyle}>
-      <h3 className=" my-3">Tasks List</h3>
+      <div className="box-color">
+      <h3 style={{ textAlign: 'center' }} className=" my-3">Tasks List</h3> <hr/>
+
+      </div>
       
       {props.todos.length === 0 ? "No tasks to display" : 
         props.todos.map((todo) => {
           return (
             <>
-            <TodoItem todo={todo} key={todo.sno} onDelete={props.onDelete} /> <hr/>
+            <TodoItem todo={todo} key={todo.sno} onDelete={props.onDelete} /> 
             </>
           )
         })

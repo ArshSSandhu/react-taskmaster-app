@@ -24,11 +24,6 @@ body {
     background-color: rgb(4, 4, 101);
     height: 80px;
 }
-
-
-.navbar {
-    background-color: #01060b;
-  }
   
   .navbar-brand {
     font-size: 35px;
@@ -79,6 +74,8 @@ body {
   }
   
   /* Todos List Styles */
+
+
   .my-3 {
     margin: 1.5rem 0;
   }
