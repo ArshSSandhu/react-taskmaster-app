@@ -20,6 +20,6 @@
 Use the project here - [Taskmaster - created by Arsh Sandhu](https://react-taskmaster-app.vercel.app/)
 
 ## How it Looks
-![Homepage](assets/img1.png)
+![Homepage](https://github.com/ArshSSandhu/react-taskmaster-app/src/assets/img1.png)
 
 
