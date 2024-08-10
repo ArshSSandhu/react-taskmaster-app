@@ -21,7 +21,7 @@ body {
 
 
 .container-fluid{
-    background-color: rgb(4, 4, 101);
+    background-color: rgb(113, 44, 44);
     height: 80px;
 }
   
@@ -79,6 +79,17 @@ body {
   .my-3 {
     margin: 1.5rem 0;
   }
+
+  .check{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right:20px ;
+  }
+
+  .form-check-input {
+    transform: scale(2.5); 
+}
   
   .todos-container {
     background-color: #ffffff;
