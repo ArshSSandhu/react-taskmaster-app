@@ -1,5 +1,5 @@
 # My TaskMaster App - React
-
+![License](https://img.shields.io/badge/license-MIT-green) <br>
 **Taskmaster** is a productivity application built with React that helps users manage their tasks efficiently. It provides a user-friendly interface for creating, updating, and tracking tasks.
 
 ## Features
